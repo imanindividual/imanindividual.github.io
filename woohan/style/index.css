@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+.page {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.page > img {
+    width: 100%;
+    height: auto;
+}
+
+#wrapper {
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+}
+
+#container {
+    width: 400vw;
+    height: 100vh;
+    display: flex;
+}
+
+.component {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+}
